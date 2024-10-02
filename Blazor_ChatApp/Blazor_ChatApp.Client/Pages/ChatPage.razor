@@ -6,36 +6,35 @@
 
 <PageTitle>Chat</PageTitle>
 
-<div class="chat-container">
-    <div class="form-group">
-        <label for="userInput">User:</label>
-        <input id="userInput" @bind="userInput" placeholder="Enter your name" />
-    </div>
-
-    <div class="form-group">
-        <label for="messageInput">Message:</label>
-        <input id="messageInput" @bind="messageInput" placeholder="Type a message..." />
-    </div>
-    <p id="errorMessage">@errorMessage</p>
-
-    <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
-
-    <hr />
-
-    <ul id="messagesList">
-        @foreach (var message in messages)
-        {
-            <li class="@message.Item1">
-                <div class="message-info">
-                    <img src="@GetAvatar(message.Item1)" alt="User Avatar">
-                    <div>
-                        <span class="message-text">@message.Item2</span>
-                        <span class="message-time">@message.Item3.ToString("HH:mm")</span>
+<div class="chat-page">
+    <div class="chat-container">
+        <ul id="messagesList">
+            @foreach (var message in messages)
+            {
+                <li class="@message.Item1">
+                    <div class="message-info">
+                        <img src="@GetAvatar(message.Item1, message.Item2.Split(':')[0])" alt="User Avatar">
+                        <div>
+                            <span class="message-text">@message.Item2</span>
+                            <span class="message-time">@message.Item3.ToString("HH:mm")</span>
+                        </div>
                     </div>
-                </div>
-            </li>
-        }
-    </ul>
+                </li>
+            }
+        </ul>
+    </div>
+        <div class="form-group">
+            <input id="userInput" @bind="userInput" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-group">
+            <input id="messageInput" @bind="messageInput" placeholder="Type a message..." />
+        </div>
+
+        <p id="errorMessage">@errorMessage</p>
+
+        <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+   
 </div>
 
 @code {
@@ -44,7 +43,6 @@
     private string? userInput;
     private string? messageInput;
     private string? errorMessage;
-
     private DateTime date = DateTime.Now;
 
     protected override async Task OnInitializedAsync()
@@ -56,7 +54,7 @@
         hubConnection.On<string, string, DateTime>("ReceiveMessage", (user, message, date) =>
         {
             var time = date.ToString("HH:mm");
-            string messageClass = user == userInput ? "user" : "other"; // Determine if it's the sender or receiver
+            string messageClass = user == userInput ? "user" : "other";
             messages.Add(Tuple.Create(messageClass, $"{user}: {message}", date));
             InvokeAsync(StateHasChanged);
         });
@@ -79,11 +77,11 @@
         if (hubConnection is not null)
         {
             await hubConnection.SendAsync("SendMessage", userInput, messageInput, date);
+            messageInput = string.Empty;
         }
     }
 
-    public bool IsConnected =>
-        hubConnection?.State == HubConnectionState.Connected;
+    public bool IsConnected => hubConnection?.State == HubConnectionState.Connected;
 
     public async ValueTask DisposeAsync()
     {
@@ -93,9 +91,16 @@
         }
     }
 
-    private string GetAvatar(string userType)
+    private string GetAvatar(string userType, string username)
     {
-        // You can replace these paths with real avatars if needed
-        return userType == "user" ? "/images/user-avatar.png" : "/images/other-avatar.png";
+        
+        if (userType == "user")
+        {
+            return $"https://ui-avatars.com/api/?name={Uri.EscapeDataString(userInput)}&background=random&size=128";
+        }
+        else
+        {
+            return $"https://ui-avatars.com/api/?name={Uri.EscapeDataString(username)}&background=random&size=128";
+        }
     }
 }

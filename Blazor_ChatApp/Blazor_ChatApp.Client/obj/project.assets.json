@@ -601,7 +601,7 @@
           }
         }
       },
-      "System.Text.Json/8.0.0": {
+      "System.Text.Json/8.0.4": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
@@ -1231,7 +1231,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Text.Json/8.0.0": {
+      "System.Text.Json/8.0.4": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
@@ -2255,10 +2255,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.0": {
-      "sha512": "OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
+    "System.Text.Json/8.0.4": {
+      "sha512": "bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
       "type": "package",
-      "path": "system.text.json/8.0.0",
+      "path": "system.text.json/8.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2323,7 +2323,7 @@
         "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.0.nupkg.sha512",
+        "system.text.json.8.0.4.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2366,28 +2366,24 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.8",
       "Microsoft.AspNetCore.SignalR.Client >= 8.0.8",
       "Microsoft.NET.ILLink.Tasks >= 8.0.8",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.8"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.8",
+      "System.Text.Json >= 8.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\can_m\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Martin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Martin\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj",
       "projectName": "Blazor_ChatApp.Client",
-      "projectPath": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj",
-      "packagesPath": "C:\\Users\\can_m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\obj\\",
+      "projectPath": "C:\\Users\\Martin\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj",
+      "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Martin\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\can_m\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2438,6 +2434,10 @@
             "target": "Package",
             "version": "[8.0.8, )",
             "autoReferenced": true
+          },
+          "System.Text.Json": {
+            "target": "Package",
+            "version": "[8.0.4, )"
           }
         },
         "imports": [
@@ -2462,7 +2462,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
