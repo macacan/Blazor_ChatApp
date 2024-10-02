@@ -1,0 +1,116 @@
+body[b-3uu4oshybq] {
+    background-color: #1e1e2f; /* Dark background */
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* White text */
+}
+
+.chat-container[b-3uu4oshybq] {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group[b-3uu4oshybq] {
+    margin-bottom: 1.5rem;
+}
+
+label[b-3uu4oshybq] {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[b-3uu4oshybq] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+    input:focus[b-3uu4oshybq] {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none;
+    }
+
+button[b-3uu4oshybq] {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:disabled[b-3uu4oshybq] {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    button:not(:disabled):hover[b-3uu4oshybq] {
+        background-color: #0056b3;
+    }
+
+#messagesList[b-3uu4oshybq] {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #222; /* Darker background for chat area */
+    padding: 10px;
+}
+
+    #messagesList li[b-3uu4oshybq] {
+        padding: 12px 16px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        color: #fff;
+        max-width: 70%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+        #messagesList li.user[b-3uu4oshybq] {
+            background-color: #6c5ce7; /* Purple for the sender */
+            align-self: flex-end;
+            margin-left: auto;
+        }
+
+        #messagesList li.other[b-3uu4oshybq] {
+            background-color: #444; /* Gray for receiver */
+            align-self: flex-start;
+        }
+
+/* Avatar and message details */
+.message-info[b-3uu4oshybq] {
+    display: flex;
+    align-items: center;
+}
+
+    .message-info img[b-3uu4oshybq] {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+.message-text[b-3uu4oshybq] {
+    font-size: 1rem;
+}
+
+.message-time[b-3uu4oshybq] {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 5px;
+    display: block;
+}
+
+#errorMessage[b-3uu4oshybq] {
+    color: red;
+    font-weight: bold;
+}

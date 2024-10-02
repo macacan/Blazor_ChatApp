@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\obj\\Debug\\net8.0\\compressed\\s91rfs726q.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blazor_ChatApp.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blazor_ChatApp.Client.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blazor_ChatApp.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blazor_ChatApp.Client.props",
+      "PackagePath": "build\\Blazor_ChatApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blazor_ChatApp.Client.props",
+      "PackagePath": "buildMultiTargeting\\Blazor_ChatApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blazor_ChatApp.Client.props",
+      "PackagePath": "buildTransitive\\Blazor_ChatApp.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

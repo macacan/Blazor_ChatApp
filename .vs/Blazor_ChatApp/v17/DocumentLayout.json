@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|c:\\users\\can_m\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|c:\\users\\can_m\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\can_m\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\can_m\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\can_m\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\can_m\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\can_m\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +51,91 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatPage.razor.css",
+              "DocumentMoniker": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
+              "ToolTip": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
+              "ViewState": "AgIAACoAAAAAAAAAAABOwDkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-01T12:21:12.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T12:04:20.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T12:02:33.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T09:19:11.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatPage.razor",
+              "DocumentMoniker": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "ToolTip": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T09:18:10.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
+              "ToolTip": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:13:20.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\can_m\\Source\\Repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:12:15.879Z"
             }
           ]
         }
