@@ -1,24 +1,77 @@
 /* /Pages/ChatPage.razor.rz.scp.css */
-body[b-3uu4oshybq] {
-    background-color: #1e1e2f; /* Dark background */
-    font-family: 'Arial', sans-serif;
-    color: #fff; /* White text */
+
+
+.chat-page[b-3uu4oshybq] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #2d3436, #6c5ce7);
+    background-size: cover;
 }
 
 .chat-container[b-3uu4oshybq] {
-    max-width: 600px;
-    margin: 0 auto;
+    width: 70vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
+    overflow-y: auto;
+    backdrop-filter: blur(8px);
+    background-color: #444;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+#messagesList[b-3uu4oshybq] {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    #messagesList li[b-3uu4oshybq] {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        max-width: 50%;
+        color: #fff;
+    }
+
+        #messagesList li.user[b-3uu4oshybq] {
+            background-color: #6c5ce7;
+            margin-left: auto;
+        }
+
+        #messagesList li.other[b-3uu4oshybq] {
+            background-color:steelblue;
+        }
+
+.message-info img[b-3uu4oshybq] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.message-text[b-3uu4oshybq] {
+    font-size: 1rem;
+}
+
+.message-time[b-3uu4oshybq] {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 5px;
+    display: block;
 }
 
 .form-group[b-3uu4oshybq] {
-    margin-bottom: 1.5rem;
-}
-
-label[b-3uu4oshybq] {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 0.5rem;
+    flex: 1;
+    margin-right: 10px;
 }
 
 input[b-3uu4oshybq] {
@@ -43,7 +96,6 @@ button[b-3uu4oshybq] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
     button:disabled[b-3uu4oshybq] {
@@ -54,64 +106,3 @@ button[b-3uu4oshybq] {
     button:not(:disabled):hover[b-3uu4oshybq] {
         background-color: #0056b3;
     }
-
-#messagesList[b-3uu4oshybq] {
-    list-style-type: none;
-    padding: 0;
-    max-height: 400px;
-    overflow-y: auto;
-    margin-top: 1rem;
-    border-radius: 10px;
-    background-color: #222; /* Darker background for chat area */
-    padding: 10px;
-}
-
-    #messagesList li[b-3uu4oshybq] {
-        padding: 12px 16px;
-        border-radius: 20px;
-        margin-bottom: 15px;
-        color: #fff;
-        max-width: 70%;
-        display: flex;
-        align-items: flex-start;
-    }
-
-        #messagesList li.user[b-3uu4oshybq] {
-            background-color: #6c5ce7; /* Purple for the sender */
-            align-self: flex-end;
-            margin-left: auto;
-        }
-
-        #messagesList li.other[b-3uu4oshybq] {
-            background-color: #444; /* Gray for receiver */
-            align-self: flex-start;
-        }
-
-/* Avatar and message details */
-.message-info[b-3uu4oshybq] {
-    display: flex;
-    align-items: center;
-}
-
-    .message-info img[b-3uu4oshybq] {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-
-.message-text[b-3uu4oshybq] {
-    font-size: 1rem;
-}
-
-.message-time[b-3uu4oshybq] {
-    font-size: 0.8rem;
-    color: #aaa;
-    margin-top: 5px;
-    display: block;
-}
-
-#errorMessage[b-3uu4oshybq] {
-    color: red;
-    font-weight: bold;
-}

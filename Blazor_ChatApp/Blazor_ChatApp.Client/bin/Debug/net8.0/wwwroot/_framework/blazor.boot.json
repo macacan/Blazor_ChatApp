@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "Blazor_ChatApp.Client",
   "resources": {
-    "hash": "sha256-3pZ2ROX/bPREyK75oRkBzTB3oTLZ7Fh8Ezxwock6NZI=",
+    "hash": "sha256-0EFox7Crq9NZFe62UFhk/wP3+g0TgFV1TxQDzSTCu+A=",
     "jsModuleNative": {
-      "dotnet.native.8.0.8.cl8s10co8y.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
+      "dotnet.native.8.0.8.12zcv2xmmu.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.8.93o8clatbv.js": "sha256-0Dpj/NkVD5WqSC16ZvJLmlc38iv9+Je+umYBVOycPVU="
+      "dotnet.runtime.8.0.8.g9vthme92t.js": "sha256-0Dpj/NkVD5WqSC16ZvJLmlc38iv9+Je+umYBVOycPVU="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-OcUTcd7qQceenWEF93409WZcaXp2qQbEyhdchog4RUE="
@@ -216,10 +216,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "Blazor_ChatApp.Client.wasm": "sha256-ekEueRXYk1ska8Su5DPyX5d7Zzz9bLBnrWlUJYDmvRQ="
+      "Blazor_ChatApp.Client.wasm": "sha256-Ah8gTYEmK0XfjcGOul0LsYtIzBC/Oopa7+dnLAkBaxc="
     },
     "pdb": {
-      "Blazor_ChatApp.Client.pdb": "sha256-ESjtQRlB4YGwTedMZGqF+qt/uIi7nW/rNi9DpNXQuPs="
+      "Blazor_ChatApp.Client.pdb": "sha256-pk68TWUARqrFz9Q67QbW2XQLyr8t+D+9uqA4N7/ORAo="
     }
   },
   "cacheBootResources": true,
