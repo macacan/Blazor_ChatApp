@@ -7,6 +7,7 @@
 <PageTitle>Chat</PageTitle>
 
 <div class="chat-page">
+    <t class="titlename">Whatsapp 2.0</t>
     <div class="chat-container">
         <ul id="messagesList">
             @foreach (var message in messages)
@@ -23,6 +24,7 @@
             }
         </ul>
     </div>
+    <div class="input-container">
         <div class="form-group">
             <input id="userInput" @bind="userInput" placeholder="Enter your name" />
         </div>
@@ -34,7 +36,7 @@
         <p id="errorMessage">@errorMessage</p>
 
         <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
-   
+    </div>
 </div>
 
 @code {
