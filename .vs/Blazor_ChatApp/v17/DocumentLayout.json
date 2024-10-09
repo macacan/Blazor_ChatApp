@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\martin\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\martin\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|c:\\users\\martin\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|c:\\users\\martin\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67940D13-6701-4DDB-BD13-5120442C4706}|Blazor_ChatApp\\Blazor_ChatApp.Client\\Blazor_ChatApp.Client.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp.client\\pages\\chatpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|c:\\users\\martin\\source\\repos\\blazor_chatapp\\blazor_chatapp\\blazor_chatapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBB127D3-61BF-4774-92DC-EE4A71FBFAA6}|Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.csproj|solutionrelative:blazor_chatapp\\blazor_chatapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatPage.razor",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T17:29:20.339Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -43,69 +40,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChatPage.razor.css",
-              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
-              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
-              "ToolTip": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
-              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-01T12:21:12.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChatPage.razor",
-              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
-              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
-              "ToolTip": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
-              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp.Client\\Pages\\ChatPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T09:18:10.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T12:04:20.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
-              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
-              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T09:13:20.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\Martin\\source\\repos\\Blazor_ChatApp\\Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
-              "RelativeToolTip": "Blazor_ChatApp\\Blazor_ChatApp\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T09:12:15.879Z",
-              "EditorCaption": ""
             }
           ]
         }
