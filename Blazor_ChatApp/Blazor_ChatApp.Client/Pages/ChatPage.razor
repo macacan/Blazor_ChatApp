@@ -1,13 +1,15 @@
-﻿@page "/"
-@rendermode InteractiveWebAssembly
-@using Microsoft.AspNetCore.SignalR.Client
-@inject NavigationManager Navigation
-@implements IAsyncDisposable
+﻿@page "/"  
+@rendermode InteractiveWebAssembly 
+@using Microsoft.AspNetCore.SignalR.Client  
+@inject NavigationManager Navigation  
+@implements IAsyncDisposable 
 
 <PageTitle>Chat</PageTitle>
 
 <div class="chat-page">
-    <t class="titlename">Whatsapp 2.0</t>
+    <t class="titlename">Whatsapp 2.0</t>  
+
+    <!-- Chatten där meddelanden visas -->
     <div class="chat-container">
         <ul id="messagesList">
             @foreach (var message in messages)
@@ -24,6 +26,7 @@
             }
         </ul>
     </div>
+
     <div class="input-container">
         <div class="form-group">
             <input id="userInput" @bind="userInput" placeholder="Enter your name" />
@@ -40,13 +43,14 @@
 </div>
 
 @code {
-    private HubConnection? hubConnection;
-    private List<Tuple<string, string, DateTime>> messages = new List<Tuple<string, string, DateTime>>();
-    private string? userInput;
-    private string? messageInput;
-    private string? errorMessage;
-    private DateTime date = DateTime.Now;
+    private HubConnection? hubConnection;  
+    private List<Tuple<string, string, DateTime>> messages = new List<Tuple<string, string, DateTime>>();  
+    private string? userInput;  
+    private string? messageInput;  
+    private string? errorMessage;  
+    private DateTime date = DateTime.Now;  
 
+    //Körs när komponenten initialiseras. Här ansluter vi till SignalR-hubben.
     protected override async Task OnInitializedAsync()
     {
         hubConnection = new HubConnectionBuilder()
@@ -55,48 +59,51 @@
 
         hubConnection.On<string, string, DateTime>("ReceiveMessage", (user, message, date) =>
         {
-            var time = date.ToString("HH:mm");
             string messageClass = user == userInput ? "user" : "other";
+
             messages.Add(Tuple.Create(messageClass, $"{user}: {message}", date));
-            InvokeAsync(StateHasChanged);
+            InvokeAsync(StateHasChanged);  //Berättar för Blazor att UI:t behöver uppdateras
         });
 
         await hubConnection.StartAsync();
     }
 
+    //Metoden som körs när användaren trycker på "Send"-knappen
     private async Task Send()
     {
         if (string.IsNullOrEmpty(userInput))
         {
-            errorMessage = "Enter a username";
-            return;
+            errorMessage = "Enter a username";  
+            return;  
         }
         else
         {
-            errorMessage = "";
+            errorMessage = ""; 
         }
 
         if (hubConnection is not null)
         {
             await hubConnection.SendAsync("SendMessage", userInput, messageInput, date);
+
             messageInput = string.Empty;
         }
     }
 
+    //Kontroll om SignalR-anslutningen är aktiv
     public bool IsConnected => hubConnection?.State == HubConnectionState.Connected;
 
     public async ValueTask DisposeAsync()
     {
         if (hubConnection is not null)
         {
-            await hubConnection.DisposeAsync();
+            await hubConnection.DisposeAsync();  
         }
     }
 
+    // Metod för att hämta avatarbild baserat på användartyp och namn
     private string GetAvatar(string userType, string username)
     {
-        
-        if (userType == "user")
+        if (userType == "user") 
         {
             return $"https://ui-avatars.com/api/?name={Uri.EscapeDataString(userInput)}&background=random&size=128";
         }

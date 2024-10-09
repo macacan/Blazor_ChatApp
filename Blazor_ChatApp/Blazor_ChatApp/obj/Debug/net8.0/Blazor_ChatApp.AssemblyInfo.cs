@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blazor_ChatApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+367fdb23fccd1f0a903967911c3882ae199740cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6047c7024be8b2ba6e85e08133486ffac00a3126")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blazor_ChatApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blazor_ChatApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
