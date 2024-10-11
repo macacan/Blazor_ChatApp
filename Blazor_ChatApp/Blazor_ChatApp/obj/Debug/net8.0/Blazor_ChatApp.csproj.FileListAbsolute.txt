@@ -132,3 +132,6 @@ C:\Users\Martin\Source\Repos\Blazor_ChatApp\Blazor_ChatApp\Blazor_ChatApp\obj\De
 C:\Users\Martin\Source\Repos\Blazor_ChatApp\Blazor_ChatApp\Blazor_ChatApp\obj\Debug\net8.0\Blazor_ChatApp.pdb
 C:\Users\Martin\Source\Repos\Blazor_ChatApp\Blazor_ChatApp\Blazor_ChatApp\obj\Debug\net8.0\Blazor_ChatApp.genruntimeconfig.cache
 C:\Users\Martin\Source\Repos\Blazor_ChatApp\Blazor_ChatApp\Blazor_ChatApp\obj\Debug\net8.0\ref\Blazor_ChatApp.dll
+C:\Users\Martin\Source\Repos\Blazor_ChatApp\Blazor_ChatApp\Blazor_ChatApp\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\Martin\Source\Repos\Blazor_ChatApp\Blazor_ChatApp\Blazor_ChatApp\bin\Debug\net8.0\AngleSharp.Css.dll
+C:\Users\Martin\Source\Repos\Blazor_ChatApp\Blazor_ChatApp\Blazor_ChatApp\bin\Debug\net8.0\HtmlSanitizer.dll

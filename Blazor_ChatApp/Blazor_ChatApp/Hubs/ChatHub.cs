@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.SignalR;
+using System.Text.RegularExpressions;
 using System;
+using Ganss.Xss;
 
 namespace BlazorSignalRApp.Hubs
 {
@@ -9,16 +11,17 @@ namespace BlazorSignalRApp.Hubs
         //Skickar meddelanden till alla anslutna klienter
         public async Task SendMessage(string user, string message, DateTime date)
         {
-            string sanitizedMessage = SanitizeInput(message);//Saniterar data för att undvika XSS-attacker
+            var sanitizer = new HtmlSanitizer();
+            string sanitizeMessage = sanitizer.Sanitize(message);
+            string sanitizeUser = sanitizer.Sanitize(user);
 
-            await Clients.All.SendAsync("ReceiveMessage", user, sanitizedMessage, date);//Skickar det saniterade meddelandet till alla klienter
+            //Saniterar data för att undvika XSS-attacker
+
+            await Clients.All.SendAsync("ReceiveMessage", sanitizeUser, sanitizeMessage, date);//Skickar det saniterade meddelandet till alla klienter
+
+
         }
 
 
-        //Saniterar meddelanden för att förhindra skadlig kod (XSS)
-        private string SanitizeInput(string input)
-        {
-            return System.Net.WebUtility.HtmlEncode(input); 
-        }
     }
 }

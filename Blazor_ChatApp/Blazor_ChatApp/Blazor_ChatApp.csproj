@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Blazor_ChatApp.Client\Blazor_ChatApp.Client.csproj" />
+    <PackageReference Include="HtmlSanitizer" Version="8.1.870" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.8" />
   </ItemGroup>
 
